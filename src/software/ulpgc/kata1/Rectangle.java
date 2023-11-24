@@ -16,4 +16,12 @@ public class Rectangle {
     public long getWidth() {
         return width;
     }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                '}';
+    }
 }
